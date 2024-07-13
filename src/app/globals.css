@@ -2,26 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+body {
+  @apply tracking-wide;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.c-auto {
+  @apply container mx-auto;
+}
+
+.border-main {
+  @apply border border-[#383838];
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+@media (min-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
   }
 }
+@media (min-width: 1024px) {
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+}
+::-webkit-scrollbar-track {
+  border-bottom-right-radius: 16px;
+}
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+::-webkit-scrollbar-thumb {
+  background-color: rgb(7, 129, 186);
+  border-bottom-right-radius: 16px;
+  border-top-left-radius: 16px;
+  border: 1px solid #383838;
 }
