@@ -1,3 +1,4 @@
+import AboutUs from '@/components/homepage/AboutUs/AboutUs'
 import Footer from '@/components/homepage/Footer/Footer'
 import Header from '@/components/homepage/Header/Header'
 import Navbar from '@/components/homepage/Navbar/Navbar'
@@ -8,6 +9,7 @@ const MainHomePage = () => {
     <div>
         <Navbar />
         <Header />
+        <AboutUs />
         <Footer />
     </div>
   )

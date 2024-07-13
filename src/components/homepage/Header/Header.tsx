@@ -1,5 +1,4 @@
 import { images } from "@/constants";
-import "./Header.css";
 import Image from "next/image";
 import SubHeading from "./SubHeading";
 
@@ -22,7 +21,7 @@ const Header = () => (
         </p>
         <button
           type="button"
-          className="border-main px-3 py-2 rounded-md text-yellow-500"
+          className="button-main"
         >
           Explore Menu
         </button>
