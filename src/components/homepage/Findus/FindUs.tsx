@@ -4,8 +4,8 @@ import React from "react";
 import SubHeading from "../Header/SubHeading";
 
 const FindUs = () => (
-  <div className="c-auto flex flex-col md:flex-row gap-8 p-8" id="contact">
-    <div className="flex justify-center items-center w-1/2">
+  <div className="c-auto flex flex-col md:flex-row gap-8 p-8 md:py-24">
+    <div className="flex justify-center items-center md:w-1/2">
       <div className="app__wrapper_info">
         <SubHeading title="Contact" />
         <h1 className="text-3xl text-amber-600">

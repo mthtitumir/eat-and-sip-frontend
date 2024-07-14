@@ -22,9 +22,9 @@ const MainHomePage = () => {
         <Intro />
         <Laurels />
         <Gallery />
-        {/* <FindUs />
+        <FindUs />
         <Newsletter />
-        <FooterOverlay /> */}
+        <FooterOverlay />
     </div>
   )
 }
