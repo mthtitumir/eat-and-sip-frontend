@@ -19,8 +19,8 @@ const MainHomePage = () => {
         <AboutUs />
         <SpecialMenu />
         <Chef />
-        {/* <Intro />
-        <Laurels />
+        <Intro />
+        {/* <Laurels />
         <Gallery />
         <FindUs />
         <Newsletter />
