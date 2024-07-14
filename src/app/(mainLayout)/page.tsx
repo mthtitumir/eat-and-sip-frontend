@@ -1,5 +1,6 @@
 import AboutUs from '@/components/homepage/AboutUs/AboutUs'
 import Chef from '@/components/homepage/Chef/Chef'
+import FindUs from '@/components/homepage/Findus/FindUs'
 import Footer from '@/components/homepage/Footer/Footer'
 import Gallery from '@/components/homepage/Gallery/Gallery'
 import Header from '@/components/homepage/Header/Header'
@@ -20,6 +21,7 @@ const MainHomePage = () => {
         <Intro />
         <Laurels />
         <Gallery />
+        <FindUs />
         <Footer />
     </div>
   )
