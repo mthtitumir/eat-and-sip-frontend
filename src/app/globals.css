@@ -23,7 +23,7 @@ body {
 }
 
 .button-main {
-  @apply border border-yellow-500 px-3 py-2 rounded-md text-yellow-500
+  @apply border border-yellow-500 px-2 md:px-3 py-1 md:py-2 rounded-sm md:rounded-md text-yellow-500
 }
 
 ::-webkit-scrollbar {
