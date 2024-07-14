@@ -20,8 +20,8 @@ const MainHomePage = () => {
         <SpecialMenu />
         <Chef />
         <Intro />
-        {/* <Laurels />
-        <Gallery />
+        <Laurels />
+        {/* <Gallery />
         <FindUs />
         <Newsletter />
         <FooterOverlay /> */}
