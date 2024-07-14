@@ -19,12 +19,12 @@ const MainHomePage = () => {
         <AboutUs />
         <SpecialMenu />
         <Chef />
-        <Intro />
+        {/* <Intro />
         <Laurels />
         <Gallery />
         <FindUs />
         <Newsletter />
-        <FooterOverlay />
+        <FooterOverlay /> */}
     </div>
   )
 }

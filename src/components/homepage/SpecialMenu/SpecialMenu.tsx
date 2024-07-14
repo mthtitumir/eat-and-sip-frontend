@@ -5,19 +5,17 @@ import MenuItem from "../Menuitem/MenuItem";
 
 const SpecialMenu = () => (
   <div
-    className="c-auto flex flex-col items-center justify-center bg-black py-16"
-    id="menu"
-  >
-    <div className="mb-8 text-left">
+    className="c-auto flex flex-col items-center justify-center p-8 md:py-24">
+    <div className="mb-8">
       <SubHeading title="Menu that fits your palate" />
-      <h1 className="text-4xl font-semibold text-white">
+      <h1 className="text-4xl font-semibold text-yellow-500">
         Today&apos;s Special
       </h1>
     </div>
 
     <div className="w-full flex flex-col md:flex-row items-center justify-center">
       <div className="w-full md:w-1/3 flex flex-col items-center">
-        <p className="text-3xl font-semibold text-white mb-4">Wine & Beer</p>
+        <p className="text-2xl font-semibold mb-4">Wine & Beer</p>
         <div className="w-full">
           {data.wines.map((wine, index) => (
             <MenuItem
@@ -32,7 +30,7 @@ const SpecialMenu = () => (
 
       <div className="w-full md:w-1/4 mx-4 my-8 md:my-0 flex justify-center">
         <Image
-          src={images.menu}
+          src={images.juice}
           alt="about_knife"
           width={250}
           height={250}
@@ -41,7 +39,7 @@ const SpecialMenu = () => (
       </div>
 
       <div className="w-full md:w-1/3 flex flex-col items-center">
-        <p className="text-3xl font-semibold text-white mb-4">Cocktails</p>
+        <p className="text-2xl font-semibold mb-4">Cocktails</p>
         <div className="w-full">
           {data.cocktails.map((cocktail, index) => (
             <MenuItem
