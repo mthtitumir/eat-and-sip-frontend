@@ -4,16 +4,15 @@ import SubHeading from "./SubHeading";
 
 const Header = () => (
   <div
-    className="c-auto p-16 app__header app__wrapper section__padding flex justify-between"
-    id="home"
+    className="c-auto p-8 md:p-16 flex flex-col md:flex-row justify-between gap-8 md:gap-0"
   >
-    <div className="app__wrapper_info w-1/2 p-5 flex justify-center items-center">
+    <div className="w-full md:w-1/2 md:p-5 flex justify-center items-center">
       <div>
         <SubHeading title="Chase the new flavour" />
-        <h1 className="app__header-h1 text-6xl text-yellow-500">
+        <h1 className="text-3xl md:text-6xl text-yellow-600">
           The Key To Fine Dining
         </h1>
-        <p className="p__opensans text-sm text-justify" style={{ margin: "2rem 0" }}>
+        <p className="text-xs md:text-sm text-justify" style={{ margin: "2rem 0" }}>
           Welcome to Favor and Sip, where every meal is a celebration of taste
           and every sip is a journey of delight. Our commitment to culinary
           excellence is reflected in each dish we serve, crafted with the finest
@@ -28,7 +27,7 @@ const Header = () => (
       </div>
     </div>
 
-    <div className="app__wrapper_img w-1/2 p-5 flex justify-center items-center">
+    <div className="w-full md:w-1/2 md:p-5 flex justify-center items-center">
       <Image height={500} width={500} alt="hero image" src={images.welcome} />
     </div>
   </div>
