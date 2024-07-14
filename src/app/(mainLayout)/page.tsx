@@ -21,8 +21,8 @@ const MainHomePage = () => {
         <Chef />
         <Intro />
         <Laurels />
-        {/* <Gallery />
-        <FindUs />
+        <Gallery />
+        {/* <FindUs />
         <Newsletter />
         <FooterOverlay /> */}
     </div>
