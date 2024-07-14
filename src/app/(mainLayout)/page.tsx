@@ -1,4 +1,5 @@
 import AboutUs from '@/components/homepage/AboutUs/AboutUs'
+import Chef from '@/components/homepage/Chef/Chef'
 import Footer from '@/components/homepage/Footer/Footer'
 import Header from '@/components/homepage/Header/Header'
 import Navbar from '@/components/homepage/Navbar/Navbar'
@@ -12,6 +13,7 @@ const MainHomePage = () => {
         <Header />
         <AboutUs />
         <SpecialMenu />
+        <Chef />
         <Footer />
     </div>
   )
