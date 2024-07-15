@@ -1,3 +1,5 @@
+import Navbar from '@/components/shared/Navbar/Navbar'
+import Footer from '@/components/shared/Footer/Footer'
 import AboutUs from '@/components/homepage/AboutUs/AboutUs'
 import Chef from '@/components/homepage/Chef/Chef'
 import FindUs from '@/components/homepage/Findus/FindUs'
@@ -5,10 +7,8 @@ import Gallery from '@/components/homepage/Gallery/Gallery'
 import Header from '@/components/homepage/Header/Header'
 import Intro from '@/components/homepage/Intro/Intro'
 import Laurels from '@/components/homepage/Laurels/Laurels'
-import Navbar from '@/components/homepage/Navbar/Navbar'
 import Newsletter from '@/components/homepage/NewsLetter/Newsletter'
 import SpecialMenu from '@/components/homepage/SpecialMenu/SpecialMenu'
-import Footer from '@/components/shared/Footer/Footer'
 
 const MainHomePage = () => {
   return (
