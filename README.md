@@ -12,7 +12,10 @@ pnpm dev
 # or
 bun dev
 ```
-
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Full page image
+
+![Eat & Sip](/src/assets/eat&sip.png)
 
 
