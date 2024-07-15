@@ -1,10 +1,19 @@
-import { images, data } from '@/constants';
-import Image from 'next/image';
-import SubHeading from '../Header/SubHeading';
+import { images, data } from "@/constants";
+import Image, { StaticImageData } from "next/image";
+import SubHeading from "../Header/SubHeading";
+type Award = {
+  award: { imgUrl: StaticImageData; title: string; subtitle: string };
+};
 
-const AwardCard = ({ award: { imgUrl, title, subtitle } }) => (
+const AwardCard = ({ award: { imgUrl, title, subtitle } }: Award) => (
   <div className="col-span-2 md:col-span-1 flex justify-start items-center ">
-    <Image src={imgUrl} alt="awards" width={50} height={50} className="w-12 h-12" />
+    <Image
+      src={imgUrl}
+      alt="awards"
+      width={50}
+      height={50}
+      className="w-12 h-12"
+    />
     <div className="ml-4 flex flex-col">
       <p className="text-[#DCCA87]">{title}</p>
       <p className="">{subtitle}</p>
@@ -26,7 +35,7 @@ const Laurels = () => (
     </div>
 
     <div className="flex justify-center items-center">
-      <Image src={images.laurels} alt="laurels_img" width={500} height={500}/>
+      <Image src={images.laurels} alt="laurels_img" width={500} height={500} />
     </div>
   </div>
 );
