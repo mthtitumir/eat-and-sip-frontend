@@ -1,9 +1,8 @@
 "use client";
-import React, { useRef, useState } from "react";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-// import "./style.css";
 import { Pagination } from "swiper/modules";
 import Image from "next/image";
 import { images } from "@/constants";
@@ -13,12 +12,12 @@ const PhotoSlide = () => {
     // For mobile devices (1 card)
     320: {
       slidesPerView: 1,
-    //   spaceBetween: 7, // Adjust the spacing as needed
+      spaceBetween: 7, // Adjust the spacing as needed
     },
     // For larger screens (3 cards)
     768: {
       slidesPerView: 3,
-    //   spaceBetween: 15, // Adjust the spacing as needed
+      spaceBetween: 15, // Adjust the spacing as needed
     },
   };
   return (

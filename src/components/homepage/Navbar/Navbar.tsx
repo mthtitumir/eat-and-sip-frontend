@@ -30,15 +30,16 @@ const Navbar = () => {
     },
   ];
   return (
-    <nav className="w-full flex justify-between items-center p-4 md:p-8">
+    <nav className="c-auto w-full flex justify-between items-center p-4 md:p-8">
       <div className="flex justify-start items-center">
-        <Image height={40} width={40} src={images.gericht} alt="logo" />
+        {/* <Image height={40} width={40} src={images.gericht} alt="logo" /> */}
+        <h1 className="text-xl font-bold">Eat & Sip</h1>
       </div>
       <ul className="hidden md:flex flex-1 justify-center items-center list-none">
         {navItems?.map((nav, index) => (
           <li
             key={index}
-            className="mx-4 cursor-pointer text-white hover:text-gray-400"
+            className="mx-4 cursor-pointer hover:text-gray-400"
           >
             <a href={nav.path}>{nav.name}</a>
           </li>
@@ -47,7 +48,7 @@ const Navbar = () => {
       <div className="hidden md:flex justify-end items-center button-main">
         <a
           href="/"
-          className="mx-4 text-white transition ease-in-out"
+          className="mx-4 transition ease-in-out"
         >
           Book Table
         </a>

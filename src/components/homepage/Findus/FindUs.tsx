@@ -8,25 +8,16 @@ const FindUs = () => (
     <div className="flex justify-center items-center md:w-1/2">
       <div className="app__wrapper_info">
         <SubHeading title="Contact" />
-        <h1 className="text-3xl text-amber-600">
-          Find Us
-        </h1>
+        <h1 className="text-3xl text-amber-600">Find Us</h1>
         <div className="">
           <p className="my-5">
-            Lane Ends Bungalow, Whatcroft Hall Lane, Rudheath, CW9 75G
+            4567 Dhaka Street, Apartment 101 Gulshan, Dhaka 1212 Bangladesh
           </p>
-          <p
-            className="text-[#DCCA87] my-3"
-          >
-            Opening Hours
-          </p>
+          <p className="text-[#DCCA87] my-3">Opening Hours</p>
           <p className="">Mon - Fri: 10:00 am - 02:00 am</p>
           <p className="">Sat - Sun: 10:00 am - 03:00 am</p>
         </div>
-        <button
-          type="button"
-          className="button-main my-3"
-        >
+        <button type="button" className="button-main my-3">
           Visit Us
         </button>
       </div>

@@ -21,6 +21,9 @@ import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
 import juice from '../assets/juice.png';
+import plate1 from '../assets/plate1.png';
+import plate2 from '../assets/plate2.png';
+import plate3 from '../assets/plate3.png';
 
 export const images =  {
   bg,
@@ -46,4 +49,7 @@ export const images =  {
   quote,
   gericht,
   juice,
+  plate1,
+  plate2,
+  plate3,
 };

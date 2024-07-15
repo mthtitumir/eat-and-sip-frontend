@@ -8,8 +8,7 @@ import Laurels from '@/components/homepage/Laurels/Laurels'
 import Navbar from '@/components/homepage/Navbar/Navbar'
 import Newsletter from '@/components/homepage/NewsLetter/Newsletter'
 import SpecialMenu from '@/components/homepage/SpecialMenu/SpecialMenu'
-import FooterOverlay from '@/components/shared/Footer/FooterOverlay'
-import React from 'react'
+import Footer from '@/components/shared/Footer/Footer'
 
 const MainHomePage = () => {
   return (
@@ -24,7 +23,7 @@ const MainHomePage = () => {
         <Gallery />
         <FindUs />
         <Newsletter />
-        <FooterOverlay />
+        <Footer />
     </div>
   )
 }
@@ -32,3 +31,4 @@ const MainHomePage = () => {
 export default MainHomePage
 // colors 
 // #DCCA87
+//pink F7163E
