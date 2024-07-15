@@ -1,6 +1,7 @@
 ## Restaurant landing page (Frontend)
 
 ### Technology: NextJs
+### Live Site - https://eat-and-sip.vercel.app/
 
 ## Run on local machine
 
